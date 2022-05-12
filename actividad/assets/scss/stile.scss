@@ -182,17 +182,16 @@ h3{
     width: 150px;
     height: 250px;
 }
-.cartelera{
+/* .cartelera{
     width: 220px;
     height: 332px;
     display: inline-block;
-    border-color: #6606E1;
     border-style: solid;
     border-width: 2px;
     
     margin: 10px;
     text-align: center;
-}
+} */
 .cartTotal{
     display: flex;
     justify-content: space-evenly;
@@ -210,3 +209,30 @@ h3{
     margin-top: 50px;
     margin-left: 50px;
   }
+  $colors: (
+    color: #6606E1,
+    width: 150px,
+    heigth: 250px,
+    );
+
+@mixin sizes($h,$w) {
+    width:$w;
+    height:$h;
+}
+.cartelera{
+    border-color: map-get($map: $colors, $key: color);
+    width: 220px;
+    height: 332px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    
+    margin: 10px;
+    text-align: center;
+}
+.img{
+    @include sizes(250px,100px);
+}
+.fb{
+    @include sizes(100px,100px);
+}

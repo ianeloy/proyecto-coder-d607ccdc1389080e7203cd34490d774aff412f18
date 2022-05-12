@@ -158,16 +158,16 @@ h5 {
   width: 150px;
   height: 250px; }
 
-.cartelera {
-  width: 220px;
-  height: 332px;
-  display: inline-block;
-  border-color: #6606E1;
-  border-style: solid;
-  border-width: 2px;
-  margin: 10px;
-  text-align: center; }
-
+/* .cartelera{
+    width: 220px;
+    height: 332px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    
+    margin: 10px;
+    text-align: center;
+} */
 .cartTotal {
   display: flex;
   justify-content: space-evenly;
@@ -183,3 +183,21 @@ h5 {
   grid-auto-rows: minmax(100px, auto);
   margin-top: 50px;
   margin-left: 50px; }
+
+.cartelera {
+  border-color: #6606E1;
+  width: 220px;
+  height: 332px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px;
+  text-align: center; }
+
+.img {
+  width: 100px;
+  height: 250px; }
+
+.fb {
+  width: 100px;
+  height: 100px; }
