@@ -255,10 +255,10 @@ h3{
     text-align: center;
 }
 .img{
-    @include sizes(250px,100px);
+    @include sizes(250px,150px);
 }
 .fb{
-    @include sizes(100px,100px);
+    @include sizes(100px,150px);
 }
 
 .header{
